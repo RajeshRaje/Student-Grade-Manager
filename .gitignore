@@ -1,0 +1,106 @@
+
+# ==============================
+# PYTHON
+# ==============================
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python build and distribution
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+wheels/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+
+# ==============================
+# ENVIRONMENT & SECRETS
+# ==============================
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==============================
+# TESTING & COVERAGE
+# ==============================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+
+# ==============================
+# TYPE CHECKING & LINTING
+# ==============================
+
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+.pytype/
+
+# ==============================
+# JUPYTER NOTEBOOKS
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# IDE & EDITORS
+# ==============================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OPERATING SYSTEM
+# ==============================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# LOGS & TEMPORARY FILES
+# ==============================
+
+*.log
+*.tmp
+*.bak
+*.temp
+
+# ==============================
+# DATABASE
+# ==============================
+
+*.sqlite3
+*.db
+
+# ==============================
+# PYTHON PACKAGES
+# ==============================
+
+site/
+pip-log.txt
+pip-delete-this-directory.txt
